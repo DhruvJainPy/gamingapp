@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s;
+}
+@font-face {
+  font-family: font1;
+  src: url(./../Fonts/ReklameScript-Regular_DEMO.otf);
+}
+@font-face {
+  font-family: font2;
+  src: url(./../Fonts/SuezOne-Regular.ttf);
+}
+.font1 {
+  font-family: font1;
+}
+.font2 {
+  font-family: font2;
+}
+.text-primary {
+  color: #272443 !important;
+}
+.bg1 {
+  background-image: url(./../Images/bg1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 120vh;
+}
+.bg2 {
+  background-image: url(./../Images/bg2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 70vh;
+  border-radius: 20px;
+  position: relative;
+}
+.bg2:hover {
+  background-color: rgba(210, 0, 0, 0.2);
+  background-blend-mode: overlay;
+}
+.after {
+  position: absolute;
+  left: -100px;
+  bottom: -50px;
+  height: 65%;
+}
+.para {
+  width: 75%;
+}
+.padd {
+  margin: 0% 30% !important;
+}
+.bg-red {
+  background-color: #da392b;
+}
+.rounded-bottom {
+  border-bottom-left-radius: 13px !important;
+  border-bottom-right-radius: 13px !important;
+}
+.nav-item,
+.nav-link {
+  color: black !important;
+  transition: linear 0.2s;
+}
+.nav-item:hover {
+  background-color: #da392b !important;
+}
+.nav-item:first-child:hover {
+  background-color: #da392b !important;
+  border-bottom-left-radius: 13px !important ;
+}
+.nav-item:last-child:hover {
+  background-color: #da392b !important;
+  border-bottom-right-radius: 13px !important;
+}
+.nav-item:hover .nav-link {
+  color: white !important;
+}
+.image {
+  border-radius: 20px;
+  background-size: cover;
+  background-blend-mode: overlay;
+  cursor: pointer;
+  min-height: 350px;
+  width: auto;
+}
+.image:hover {
+  background-blend-mode: normal;
+}
+.image:hover .card-txt {
+  opacity: 0;
+}
+.card4 {
+  cursor: pointer;
+  color: #622b3b;
+  min-height: 350px;
+  width: auto;
+  background-image: linear-gradient(to bottom, #fbfc71, #f4d061, #e57942);
+  border-radius: 20px;
+  letter-spacing: -0.5px;
+}
+.card4:hover {
+  background-image: linear-gradient(to bottom, #fbfc71 100%, transparent);
+  color: black;
+}
+.btn1 {
+  background-color: #da392b;
+  color: white;
+  border-radius: 12px;
+  padding: 18px 30px;
+}
+.btn1:hover {
+  background-color: transparent;
+  border: 1px solid black;
+}
+.bg3 {
+  background-image: url("./../Images/bg3.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250vh;
+}
+.bg4 {
+  background-image: url(./../Images/bg4.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 110vh;
+}
+.bg5 {
+  background-image: url(./../Images/bg5.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-color: #5a5a73;
+  background-blend-mode: multiply;
+}
+.contactcontainer {
+  position: relative;
+}
+.contactform {
+  position: absolute !important;
+  top: 37%;
+  padding: 15px 50px;
+}
+.rounder {
+  border-radius: 25px !important;
+}
+.btn2 {
+  background-color: #fcff72;
+  color: black;
+  border: 1px solid #fcff72;
+  padding: 18px 22px;
+  border-radius: 12px;
+}
+.btn2:hover {
+  background-color: white !important;
+  border: 1px solid white !important;
+}
+.btn3 {
+  background-color: #272443;
+  color: white;
+  border: 1px solid #272443;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+}
+
+.btn4 {
+  background-color: #272443;
+  color: white;
+  border: 1px solid #272443;
+  padding: 12px 50px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+}
+.btn4:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+}
+.btn3:hover {
+  background-color: #da392b;
+  border: 1px solid #da392b;
+}
+.input {
+  border: 1px solid black;
+  padding: 13px;
+  resize: none;
+}
+.input:hover {
+  border: 2px solid black;
+}
+.input:focus {
+  border: 2px solid red;
+}
+li {
+  cursor: pointer;
+}
+.bg6 {
+  background-color: #da392b;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.jobImg {
+  border-radius: 25px;
+  transform: scale(1);
+}
+.jobImg:hover {
+  transform: scale(1.1);
+}
+.about1 {
+  background-image: url(/src/Images/about1.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.about2 {
+  background-image: url(/src/Images/about2.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-color: lightgrey;
+  background-blend-mode: overlay;
+}
+.about3 {
+  background-image: url(/src/Images/about3.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 120vh;
+  background-color: #c6574d;
+  background-blend-mode: overlay;
+}
+@media (max-width: 768px) {
+  .padd {
+    margin: 5% !important;
+  }
+  .contactform {
+    position: relative;
+    padding: 25px;
+    top: 35%;
+  }
+  .rounder {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .bg3 {
+    background-color: transparent;
+    background-image: none;
+  }
+  .after {
+    position: absolute;
+    left: 125px;
+    bottom: -50px;
+  }
+  .para {
+    width: 100%;
+  }
+}
