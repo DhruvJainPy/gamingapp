@@ -10,7 +10,7 @@ export const InfoCard = (props) => {
                         <img className="shadow-lg" style={{ border: "5px solid white", borderRadius: "25px" }} src={props.element.character} height="79" width="79" alt="" />
                         <p className="card-title h5 fw-bolder ms-3 ms-md-4 mt-4">
                             {props.element.title}
-                            <p className='h6 mt-2'>{props.element.subtitle}</p>
+                            <span className='h6 mt-2 d-block'>{props.element.subtitle}</span>
                         </p>
                     </div>
                     <p className="card-text">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>

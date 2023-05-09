@@ -28,7 +28,7 @@ function Home() {
                     <Navbar />
                     <div className='my-auto'>
                         <p className="display-2 font2 ps-3 ps-md-5" style={{ color: "#272443" }}>Made to Be Played
-                            <p className="h4">The Very Best in Mobile Gaming</p>
+                            <span className="h4 d-block">The Very Best in Mobile Gaming</span>
                         </p>
                         <button className='ms-3 ms-md-5 border-0 mt-3 bg-transparent'><img src={apple} alt="" width={135} height={45} /></button>
                         <button className='ms-3 border-0 mt-3 bg-transparent'><img src={android} alt="" width={152} height={45} /></button>
@@ -51,7 +51,7 @@ function Home() {
                 <div className="row bg3">
                     <div className='row'>
                         {infoCards.map((el) => {
-                            return <InfoCard element={el} />
+                            return <InfoCard key={el.id} element={el} />
                         })}
                         <div className="col-11 col-md-5 offset-1 p-3 p-md-5 my-3 my-md-5 d-md-flex align-items-center">
                             <img src={character} height={"300px"} width={"275px"} alt="" />
@@ -74,19 +74,19 @@ function Home() {
                                 <div className="name mt-5 mx-4">
                                     <form className="row g-3">
                                         <div className="col-md-6">
-                                            <label for="fname" className="form-label">First Name * </label>
+                                            <label htmlFor="fname" className="form-label">First Name * </label>
                                             <input type="text" className="form-control input" id="fname" />
                                         </div>
                                         <div className="col-md-6">
-                                            <label for="lname" className="form-label">Last Name *</label>
+                                            <label htmlFor="lname" className="form-label">Last Name *</label>
                                             <input type="text" className="form-control input" id="lname" />
                                         </div>
                                         <div className="col-12">
-                                            <label for="email" className="form-label">Email *</label>
+                                            <label htmlFor="email" className="form-label">Email *</label>
                                             <input type="email" className='form-control input' id='email' />
                                         </div>
                                         <div className="col-12">
-                                            <label for="msg" className="form-label">Leave us a message *</label>
+                                            <label htmlFor="msg" className="form-label">Leave us a message *</label>
                                             <textarea name="msg" id="msg" className='w-100' style={{ "resize": "none" }} rows="5"></textarea>
                                         </div>
                                         <div className="col-12">

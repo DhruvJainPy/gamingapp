@@ -69,7 +69,7 @@ export const AboutUs = () => {
                         <p className="display-4 text-center font2 text-white p-3 p-md-5">Meet The Founders</p>
                         <div className="row">
                             {employee.map((el) => {
-                                return <Job job={el} />
+                                return <Job key={el.id} job={el} />
                             })}
                         </div>
                     </div>
