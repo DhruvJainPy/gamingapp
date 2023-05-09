@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gamingapp/static/css/main.b9fb1392.css",
-    "main.js": "/gamingapp/static/js/main.f2864d42.js",
+    "main.js": "/gamingapp/static/js/main.7053f6f4.js",
     "static/js/787.fedf0ab7.chunk.js": "/gamingapp/static/js/787.fedf0ab7.chunk.js",
     "static/media/bg3.webp": "/gamingapp/static/media/bg3.0083eb3ab4d3b7af216b.webp",
     "static/media/after.webp": "/gamingapp/static/media/after.461ba544a52f5912f987.webp",
@@ -34,11 +34,11 @@
     "static/media/c1.webp": "/gamingapp/static/media/c1.91f6367ea11a0ea09988.webp",
     "index.html": "/gamingapp/index.html",
     "main.b9fb1392.css.map": "/gamingapp/static/css/main.b9fb1392.css.map",
-    "main.f2864d42.js.map": "/gamingapp/static/js/main.f2864d42.js.map",
+    "main.7053f6f4.js.map": "/gamingapp/static/js/main.7053f6f4.js.map",
     "787.fedf0ab7.chunk.js.map": "/gamingapp/static/js/787.fedf0ab7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9fb1392.css",
-    "static/js/main.f2864d42.js"
+    "static/js/main.7053f6f4.js"
   ]
 }
