@@ -257,7 +257,8 @@ li {
   }
   .after {
     position: absolute;
-    left: 125px;
+    height: 50%;
+    width: 50%;
     bottom: -50px;
   }
   .para {
